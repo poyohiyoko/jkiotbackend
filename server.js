@@ -13,6 +13,6 @@ app.use('/', require('./routes/index.js'));
 app.use(errorhandler());
 
 var port = process.env.PORT || 1337;
-app.listen(8001, ()=> {
+app.listen(port, ()=> {
   console.log('Express Server 01');
 });
