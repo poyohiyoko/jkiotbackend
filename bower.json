@@ -1,0 +1,21 @@
+{
+  "name": "sitesample",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "poyohiyoko <poyo.hiyoko@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2",
+    "bootstrap": "^4.0.0"
+  }
+}
