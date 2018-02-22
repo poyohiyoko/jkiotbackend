@@ -2,6 +2,9 @@ $(function () {
     $("#errorbox").hide();
     $(".btn_proc").on("click", function() {
         var name = $(this).attr("name");
+        if (name=="btn_update") {
+            $("#status").text("");
+        }
         $.post("/process", {method: name}).done(function(data) {
             var payload = JSON.parse(data);
             if (payload.error) {
